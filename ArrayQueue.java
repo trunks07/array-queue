@@ -2,15 +2,15 @@
 * Java implementation of a queue using array.
 * For demo purpose, should hold a maximum of 10 integers.
 *
-* @author  [your full name here]
-* @link    [full github url]
-* @version [version number]
-* @since   [last updated dd/mm/yyyy]
+* @author  [Carlo S. Geuvarra]
+* @link    [https://github.com/trunks07/array-queue/edit/master/ArrayQueue.java]
+* @version [1]
+* @since   [last updated 01/09/16]
 */
 
 public class ArrayQueue {
   
-  // note: variable declarations
+
   private int capacity; // note: optional, you may also use array.length
   private int head; // note: value of front item
   private int tail; // note: counter number of tail
